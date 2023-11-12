@@ -16,4 +16,4 @@ try:
     ui.start()
 
 except IOError:
-    print('** PROGRAM TERMINATION (IO Error) **')
+print('** PROGRAM TERMINATION (IO Error) **')
