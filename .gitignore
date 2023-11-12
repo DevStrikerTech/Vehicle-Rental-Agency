@@ -1,7 +1,0 @@
-.pytest_cache/
-vehicle/__pycache__/
-cost/__pycache__/
-reservation/__pycache__/
-system_interface/__pycache__/
-rental_agency_ui/__pycache__/
-tests/__pycache__/
