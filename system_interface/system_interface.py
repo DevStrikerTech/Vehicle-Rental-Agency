@@ -8,9 +8,9 @@ from reservation.reservations import Reservations
 
 
 # symbolic constants
-VEHICLE_TYPES = ('Car', 'Van', 'Truck')
-VEHICLES_FILENAME = 'vehicles_stock.txt'
-VEHICLE_COSTS_FILENAME = 'rental_costs.txt'
+VEHICLE_TYPES = ("Car", "Van", "Truck")
+VEHICLES_FILENAME = "vehicles_stock.txt"
+VEHICLE_COSTS_FILENAME = "rental_costs.txt"
 
 # exception class
 class InvalidFileFormatError(Exception):
@@ -21,7 +21,8 @@ class InvalidFileFormatError(Exception):
         self.__file_name = file_name
 
     def __str__(self) -> str:
-        return f'FILE FORMAT ERROR: file header {self.__header} exception is file {self.__file_name}'
-    
+        return f"FILE FORMAT ERROR: file header {self.__header} exception is file {self.__file_name}"
+
+
 class SystemInterface:
     """This class provides the system interface of the vehicle rental system."""

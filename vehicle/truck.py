@@ -1,7 +1,9 @@
 from vehicle.vehicle import Vehicle
 
+
 class Truck(Vehicle):
     """This class is a subtype of the Vehicle class"""
+
     def __init__(self, mpg: str, length: str, num_rooms: str, vin: str):
         """Initialized with provided parameter values."""
         super().__init__(mpg, vin)
@@ -11,4 +13,4 @@ class Truck(Vehicle):
 
     def getDescription(self) -> str:
         """Returns description of car as formatted string"""
-        return f'length(feet):{self.__length}  rooms:{self.__num_rooms}  {super().getDescription()}'
+        return f"length(feet):{self.__length}  rooms:{self.__num_rooms}  {super().getDescription()}"

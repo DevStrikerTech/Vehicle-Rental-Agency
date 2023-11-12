@@ -1,5 +1,5 @@
 """
-This program performs the task of a vehicle rental agency, including the 
+This program performs the task of a vehicle rental agency, including the
 display of vehicle information and the ability to make/cancel reservations.
 """
 from system_interface.system_interface import SystemInterface
@@ -16,4 +16,4 @@ try:
     ui.start()
 
 except IOError:
-print('** PROGRAM TERMINATION (IO Error) **')
+    print("** PROGRAM TERMINATION (IO Error) **")
